@@ -1,0 +1,44 @@
+body {
+    background: #f2f2f2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.registration-container {
+    background-color: #34495e; /* Muted navy blue */
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+    width: 50%;
+    max-width: 600px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+h2, p, label {
+    color: white;
+}
+
+.btn-primary {
+    width: 100%;
+    background-color: #fff;
+    color: #ff4d4d;
+    border: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #ffe6e6;
+    color: #c0392b;
+}
+
+a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #ddd;
+}
